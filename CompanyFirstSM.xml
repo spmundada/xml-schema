@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2018 rel. 2 (x64) (http://www.altova.com) by Shirish Mundada (Rokdoba Systems) -->
+<Company xmlns="http://my-company.com/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://my-company.com/namespace file:///C:/Users/mundada/Documents/XML%20Spy%20SM/AddressLastSM.xsd">
+	<Address xsi:type="US-Address">
+		<Name>US Depedency</Name>
+		<Street>Noble Ave</Street>
+		<City>Dallas</City>
+		<Zip>12345</Zip>
+		<State>Texas</State>
+	</Address>
+	<Person Manager="true" Degree="BA" Programmer="true">
+		<First>Fred</First>
+		<Last>Smith</Last>
+		<PhoneExt>22</PhoneExt>
+		<Email>smith@work.com</Email>
+	</Person>
+	<Person Manager="false" Degree="MA" Programmer="true">
+		<First>Alfred</First>
+		<Last>Aldrich</Last>
+		<PhoneExt>444</PhoneExt>
+		<Email>Aldrich@work.com</Email>
+	</Person>
+</Company>
